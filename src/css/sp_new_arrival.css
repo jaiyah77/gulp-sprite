@@ -1,0 +1,21 @@
+.test::after {
+	background-image: url(../img/sp_test.png);
+	background-size: 14px 12px;
+}
+
+.test {
+	font-size: 16px;
+}
+
+.test::after {
+	display: inline-block;
+	overflow: hidden;
+	width: 14px;
+	height: 12px;
+	background-position: 0px 0px;
+	color: transparent;
+	margin-left: 5px;
+	content: '';
+}
+
+/*# sourceMappingURL=sp_new_arrival.css.map */
